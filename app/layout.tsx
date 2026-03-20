@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Tempo Run',
+	title: 'Rhythm Run',
 	description: 'Find tracks to match your pace. Built by Jared Hettinger',
 };
 

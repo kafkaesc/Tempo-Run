@@ -4,7 +4,7 @@ import P from '@/components/elements/P';
 export default function Home() {
 	return (
 		<main>
-			<H1 className="text-center">Tempo Run</H1>
+			<H1 className="text-center">Rhythm Run</H1>
 			<P className="text-center">Find tracks and run at your rate</P>
 		</main>
 	);

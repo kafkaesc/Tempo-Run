@@ -6,7 +6,7 @@ export default function Navbar() {
 	return (
 		<nav className="flex items-center justify-between py-2">
 			<Link className="text-4xl font-bold" href="/">
-				Tempo Run
+				Rhythm Run
 			</Link>
 			<div className="flex items-center gap-4">
 				<NavList />
