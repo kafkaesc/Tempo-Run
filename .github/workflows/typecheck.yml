@@ -6,6 +6,7 @@ on:
 
 jobs:
   typecheck:
+    # https://youtu.be/yX8yrOAjfKM?t=230
     runs-on: ubuntu-latest
     steps:
       # GitHub checkout clones the repo into the runner
