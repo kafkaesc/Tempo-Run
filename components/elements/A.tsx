@@ -6,6 +6,7 @@ type AProps = React.ComponentPropsWithoutRef<'a'>;
 const sharedStyles =
 	'text-foreground underline decoration-highlight decoration-[0.1em] transition-colors duration-300 hover:bg-background-hover focus-visible:bg-background-hover';
 
+/** A styled anchor element that accepts all native attributes */
 export default function A({ children, className, href, ...props }: AProps) {
 	if (!href) {
 		return (

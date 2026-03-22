@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 
 type InputProps = React.ComponentPropsWithoutRef<'input'>;
 
-/** A styled text input that accepts all native input props. */
+/** A styled text input that accepts all native attributes */
 export default function Input({ className, ...props }: InputProps) {
 	return (
 		<input
